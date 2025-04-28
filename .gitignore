@@ -7,3 +7,7 @@ node_modules/
 # Package lock files
 package-lock.json
 yarn.lock
+
+# SQL database files
+
+sql/tutoring_schema.mwb
