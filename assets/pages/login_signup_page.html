@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup System</title>
+    <link rel="stylesheet" href="/assets/css/loginstyle.css">
+    <script src="https://kit.fontawesome.com/3cb405d3d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="card-switch">
+                <label class="switch">
+                    <input type="checkbox" class="toggle">
+                    <span class="slider"></span>
+                    <span class="card-side"></span>
+                    <div class="flip-card__inner">
+                        <div class="flip-card__front">
+                            <div class="title">Log in to TheSTEMTutorNetwork</div>
+                            <form class="flip-card__form" action="/login" method="POST">
+                                <input class="flip-card__input" name="email" placeholder="Email" type="email" required>
+                                <input class="flip-card__input" name="password" placeholder="Password" type="password" required>
+                                <button class="flip-card__btn" type="submit">Let's go!</button>
+                                <a href="forgot_password.html" class="forgot-password">Forgotten your password?</a>
+                            </form>
+                        </div>
+                        <div class="flip-card__back">
+                            <div class="title">Sign up for TheSTEMTutorNetwork</div>
+                            <form class="flip-card__form" action="/signup" method="POST">
+                                <input class="flip-card__input" name="firstName" placeholder="First Name" type="text" required>
+                                <input class="flip-card__input" name="lastName" placeholder="Last Name" type="text" required>
+                                <input class="flip-card__input" name="dob" placeholder="Date of Birth" type="date" required>
+                                <input class="flip-card__input" name="email" placeholder="Email" type="email" required>
+                                <input class="flip-card__input" name="password" placeholder="Password" type="password" required>
+                                <button class="flip-card__btn" type="submit">Confirm!</button>
+                            </form>
+                        </div>
+                    </div>
+                </label>
+            </div>   
+        </div>
+    </div>            
+    <div id="toastBox"></div>
+    <script src="/assets/js/loginsystemmain.js"></script>
+</body>
+</html>

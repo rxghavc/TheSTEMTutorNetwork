@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoring Request</title>
+    <link rel="stylesheet" href="/assets/css/account_dashboardstyle.css">
+    <script src="https://kit.fontawesome.com/3cb405d3d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="card-switch">
+                <label class="switch">
+                    <input type="checkbox" class="toggle">
+                    <span class="slider"></span>
+                    <span class="card-side"></span>
+                    <div class="flip-card__inner">
+                        <div class="flip-card__front">
+                            <div class="title">Submit Your Tutoring Request</div>
+                            <form id="tutoringForm" class="flip-card__form">
+                                <input id="email" class="flip-card__input" name="email" placeholder="Email" type="email" readonly>
+                                <input id="subject" class="flip-card__input" name="subject" placeholder="Subject" type="text" required>
+                                <input id="level" class="flip-card__input" name="level" placeholder="Level of Study" type="text" required>
+                                <input id="availability" class="flip-card__input" name="availability" placeholder="Availability" type="text" required>
+                                <textarea id="additionalInfo" class="flip-card__input" name="additionalInfo" placeholder="Additional Information" rows="4"></textarea>
+                                <button class="flip-card__btn" type="submit">Submit Request</button>
+                            </form>
+                        </div>
+                        <div class="flip-card__back">
+                            <div class="title">Visit our links below:</div>
+                            <p><a href="https://linkedin.com/in/raghavcommandur" target="_blank">LinkedIn</a></p>
+                            <p><a href="https://github.com/rxghavc" target="_blank">GitHub</a></p>
+                            <p><a href="mailto:r.commandur@gmail.com">Email</a></p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div id="toastBox"></div>
+    <script src="/assets/js/account_dashboardscript.js"></script>
+</body>
+</html>

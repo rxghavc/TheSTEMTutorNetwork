@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Email</title>
+    <link rel="stylesheet" href="/assets/css/verification_codestyle.css">
+    <script src="https://kit.fontawesome.com/3cb405d3d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="reset-password-box">
+                <h2>Enter the verification code sent to your email!</h2>
+                <form class="verify-code-form" action="/verify_code" method="POST">
+                    <input class="verify-code-input" name="verificationCode" placeholder="Verification Code" type="text" required>
+                    <div class="button-container">
+                        <button class="verify-code-btn" type="submit">Verify Me!</button>
+                        <button class="resend-code-btn" type="button">Resend a Code...</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="toastBox"></div>
+    <script src="/assets/js/verification_codescript.js"></script>
+</body>
+</html>
