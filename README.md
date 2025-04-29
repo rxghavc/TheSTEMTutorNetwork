@@ -6,14 +6,6 @@ For any inquiries, please contact [TheSTEMTutorNetwork Support](mailto:r.command
 ## Project Overview
 TheSTEMTutorNetwork is a web-based platform designed to connect students with certified tutors specializing in delivering GCSE/A-Level content. This is available to use to obtain many student's details and their desired tutoring lessons needed so that you as tget emailed when tutoring requests come in. After that, it's possible for you to email the students and set up a tutor for them. This repository contains the source code, assets, and database schema for the application.
 
-## Screenshots
-
-### Homepage
-
-### Login/Signup Page
-
-### Tutoring Requests Page
-
 ## Project Structure
 
 ### Root Directory
@@ -135,4 +127,25 @@ The project requires the following environment variables to be set up in a `.env
 11. **PERSONAL_EMAIL_USER**: A personal email address, for administrative purposes.
 
 Ensure that these variables are properly configured before running the project.
+
+## Screenshots
+
+### Homepage
+
+![image](https://github.com/user-attachments/assets/84e3d9df-e15b-4233-8413-6ed40f33123d)
+![image](https://github.com/user-attachments/assets/28954502-247f-46a7-9c52-f97cdd00c10f)
+![image](https://github.com/user-attachments/assets/48361e12-7b87-4870-a4f6-e4a21319a971)
+![image](https://github.com/user-attachments/assets/a3fed381-9692-471c-89a8-b142ad276cb3)
+![image](https://github.com/user-attachments/assets/6ed4e6e5-e8e9-4a16-878f-b188ef8191d9)
+![image](https://github.com/user-attachments/assets/53e32bbb-11ef-459b-9f0f-8c1e5fa48045)
+
+### Login/Signup Page
+
+![image](https://github.com/user-attachments/assets/d320b069-3232-4c81-929a-ee56da7c38e3)
+![image](https://github.com/user-attachments/assets/cf3cd418-ffc7-4ba8-bf6f-68435c753c55)
+
+### Tutoring Requests Page
+
+![image](https://github.com/user-attachments/assets/8d9018f4-9f47-4ebc-b238-05d3d857d51c)
+![image](https://github.com/user-attachments/assets/37e94cd4-0579-47f0-9c9f-8b471411c357)
 
