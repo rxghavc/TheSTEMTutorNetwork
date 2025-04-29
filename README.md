@@ -8,6 +8,12 @@ TheSTEMTutorNetwork is a web-based platform designed to connect students with ce
 
 ## Screenshots
 
+### Homepage
+
+### Login/Signup Page
+
+### Tutoring Requests Page
+
 ## Project Structure
 
 ### Root Directory
