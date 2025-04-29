@@ -4,7 +4,7 @@
 For any inquiries, please contact [TheSTEMTutorNetwork Support](mailto:r.commandur@gmail.com).
 
 ## Project Overview
-TheSTEMTutorNetwork is a web-based platform designed to connect students with certified tutors specializing in delivering GCSE/A-Level content. This is available to use to obtain many student's details and their desired tutoring lessons needed so that you as tget emailed when tutoring requests come in. After that, it's possible for you to email the students and set up a tutor for them. This repository contains the source code, assets, and database schema for the application.
+TheSTEMTutorNetwork is a web-based platform designed to connect students with certified tutors specializing in delivering GCSE/A-Level content. This is available to use to obtain many student's details and their desired tutoring lessons needed so that you get emailed when tutoring requests come in. After that, it's possible for you to email the students and set up a tutor for them. This repository contains the source code, assets, and database schema for the application.
 
 ## Project Structure
 
